@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  animation: color-fade 4s forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes color-fade{
+  0% { background-color: rgb(255, 255, 255); }
+  100% { background-color: rgb(255, 239, 218); }
 }
 
 code {
