@@ -15,7 +15,7 @@
   font-size: calc(160px + 20vmin);
   font-family: 'Dorsa';
   font-weight: lighter;
-  color: rgb(0, 0, 0);
+  color: rgb(252, 225, 255);
   margin-top: 15%;
   margin-bottom: 0%;
   
@@ -24,23 +24,29 @@
 #B-letter{
   position: relative;
   opacity: 0;
-  animation: move-text-b 1.2s forwards;
+  animation: move-text-b 10.2s forwards;
 }
 
 @keyframes move-text-b {
-  0% { left: -10.2em; opacity: 1; }
-  100% { left: 0; opacity: 1; }
+  0% { left: -10.2em; opacity: 1; } 
+  25% { left: 0; opacity: 1; }
+  50% { left: 0; opacity: 1; }
+  75% { left: 0; opacity: 1; }
+  100% { left: -10.2em; opacity: 1;}
 }
 
 #C-letter{
   position: relative;
   opacity: 0;
-  animation: move-text-c 1.2s forwards;
+  animation: move-text-c 10.2s forwards;
 }
 
 @keyframes move-text-c {
-  0% { right: -10.2em; opacity: 1; }
-  100% { right: 0; opacity: 1; }
+  0% { right: -10.2em; opacity: 1; } 
+  25% { right: 0; opacity: 1; }
+  50% { right: 0; opacity: 1; }
+  75% { right: 0; opacity: 1; }
+  100% { right: -10.2em; opacity: 1; }
 }
 
 #title {
@@ -49,24 +55,24 @@
   font-size: calc(10px + 2vmin);
   font-family: 'NewYork';
   letter-spacing: 1cm;
-  color: rgb(0, 0, 0);
-  animation: title-fade-in 4s forwards;
+  color: rgb(252, 225, 255);
+  animation: title-fade-in 6.5s forwards;
   animation-delay: 1.2s;
 }
 
 @keyframes title-fade-in {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  60% { opacity: 1; }
+  1000% { opacity: 0; }
 }
 
 .Rect{
   position: absolute;
   text-align: center;
-  top: 50%;
   left: 50%;
-  height: 50vh;
+  top: 45%;
+  height: 60vh;
   width: 30vh;
-  margin-top: -27vh;
+  margin-top: -28vh;
   margin-left: -14vh;
-  padding-bottom: 0%;
 }

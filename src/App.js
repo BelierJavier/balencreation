@@ -10,7 +10,7 @@ function App() {
       <span className="logo">
           <span id="B-letter">B</span>
           <span id="C-letter">C</span>
-        </span>
+      </span>
 
 
 
