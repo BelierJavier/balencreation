@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background-color: rgb(166, 119, 175);
+  animation: background-trans 1s forwards;
+  animation-delay: 10s;
+}
+
+@keyframes background-trans {
+  0% {background-color: rgb(166, 119, 175) ;}
+  1% {background-color: rgb(87, 51, 94) ;}
+  100% {background-color: rgb(87, 51, 94) ;}
 }
 
 code {
